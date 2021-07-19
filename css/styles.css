@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+}
+.background {
+    background-color: #c00000;
+    color: white;
+    height: 175px;
+    width: 100%;
+}
+.logo {
+    background-color: white;
+    top: 0;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+}
+h1 {
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+h2 {
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    text-align: center;
+    color: #c00000;
+}
+h3 {
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    text-align: center;
+    color: #c00000; 
+}
+h5 {
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    text-align: center;
+    color: #c00000; 
+}
+.image {
+    width: 25%;
+    height: 150px;
+}
+.div1 {
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    text-align: center;
+    font-size: 32px;
+    color: #c00000;
+}
+.div2 {
+    background-color: #c00000;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+a {
+    
+    margin:0 auto;
+    color: white;
+}
+a:hover {
+    color: #f54748;
+}
+.alt1 {
+    background-color: #c00000;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+.alt2 {
+    background-color: white;
+    color: #c00000;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+hr {
+    width: 80%;
+}
+.image15 {
+    position: relative;
+    bottom: 160px;   
+}
+.image16 {
+    position: relative;
+    right: 100px;
+    bottom: 30px;
+}
+.image17 {
+    position: relative;
+    right: 210px;
+    top: 100px;
+}
+.Mundra {
+    border-style: solid;
+    border-color: #c00000;
+    border-width: 2px;
+    width: 50%;
+}
+.pmundra {
+    text-align: center;
+}
+.row {
+    display: flex;
+} 
+.column {
+    flex: 50%;
+}
+.footer {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #c00000;
+    padding: 10px;
+    color: rgb(66, 58, 58);
+}
+ul {
+    text-align: left;
+}
+a:link {
+    text-decoration: none;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid white;
+    margin: auto;
+    fill: white;
+}
